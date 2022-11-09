@@ -12,7 +12,6 @@
 		BE1128A221F7848E00A6B046 /* PlayerRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1128A121F7848E00A6B046 /* PlayerRandom.swift */; };
 		BE3DFE8521EF8D6700D84C14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DFE8421EF8D6700D84C14 /* main.swift */; };
 		BE3DFE8C21EF8E4300D84C14 /* PlayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DFE8B21EF8E4300D84C14 /* PlayerProtocol.swift */; };
-		BE3DFE8E21EF8F6100D84C14 /* PlayerHoldFixed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DFE8D21EF8F6100D84C14 /* PlayerHoldFixed.swift */; };
 		BE3DFE9021EF90B200D84C14 /* ActivePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DFE8F21EF90B200D84C14 /* ActivePlayer.swift */; };
 		BE3DFE9221EFAAE200D84C14 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DFE9121EFAAE200D84C14 /* GameManager.swift */; };
 		BE3DFE9621F00DDE00D84C14 /* GameStatusUpdateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DFE9521F00DDE00D84C14 /* GameStatusUpdateProtocol.swift */; };
@@ -38,7 +37,6 @@
 		BE3DFE8121EF8D6700D84C14 /* MacPig */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MacPig; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3DFE8421EF8D6700D84C14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BE3DFE8B21EF8E4300D84C14 /* PlayerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProtocol.swift; sourceTree = "<group>"; };
-		BE3DFE8D21EF8F6100D84C14 /* PlayerHoldFixed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHoldFixed.swift; sourceTree = "<group>"; };
 		BE3DFE8F21EF90B200D84C14 /* ActivePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivePlayer.swift; sourceTree = "<group>"; };
 		BE3DFE9121EFAAE200D84C14 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		BE3DFE9521F00DDE00D84C14 /* GameStatusUpdateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStatusUpdateProtocol.swift; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 		BE11289C21F76D8500A6B046 /* Players */ = {
 			isa = PBXGroup;
 			children = (
-				BE3DFE8D21EF8F6100D84C14 /* PlayerHoldFixed.swift */,
 				BE1128A121F7848E00A6B046 /* PlayerRandom.swift */,
 			);
 			path = Players;
@@ -167,7 +164,6 @@
 				BE3DFE8521EF8D6700D84C14 /* main.swift in Sources */,
 				BE3DFE9621F00DDE00D84C14 /* GameStatusUpdateProtocol.swift in Sources */,
 				BE3DFE9021EF90B200D84C14 /* ActivePlayer.swift in Sources */,
-				BE3DFE8E21EF8F6100D84C14 /* PlayerHoldFixed.swift in Sources */,
 				BE11289B21F765DB00A6B046 /* TournamentManager.swift in Sources */,
 				BE1128A221F7848E00A6B046 /* PlayerRandom.swift in Sources */,
 				BE3DFE9221EFAAE200D84C14 /* GameManager.swift in Sources */,

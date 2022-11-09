@@ -16,7 +16,6 @@ print("Pig death match!\n\n")
 TournamentManager.instance.statusUpdate = CommandLineStatusUpdate(verbosity: .High)
 
 //add the players
-TournamentManager.instance.addPlayer(player: PlayerHoldFixed())
 TournamentManager.instance.addPlayer(player: PlayerRandom())
 
 //fight to the death
